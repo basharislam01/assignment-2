@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* nav and body style start here */
+/* .fast-part{
+    backgroundkh: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+} */
+
+
+header{
+    width: 99.7%;
+    height: 915px;
+    border: 3px solid green;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  
+}
+/* nav style start here */
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    
+    padding: 8px 23px;
+    
+}
+
+.nav-item{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 45px;
+}
+
+.nav-name{
+ color: rgb(230, 83, 60);
+font-size: 3rem;
+font-weight: 800;
+font-style: italic;
+}
+
+.nav-position{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 2% 10%;    
+}
+
+.special-icon{
+    font-weight: bold;
+    background: rgb(230, 83, 60);
+}
+/* banner section style here */
+
+.banner-container{
+    display: flex;
+    margin: 1% 30% 1% 10%;
+}
+
+.banner-box{
+    margin-right: 45%;
+    margin-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.banner-titel{
+color: rgb(255, 255, 255);
+font-size: 4rem;
+font-weight: 900;
+text-align: left;
+margin-bottom: 5%;
+margin-top: 7%;
+}
+
+.banner-p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1.2rem;
+font-weight: 400;
+text-align: left;
+margin-bottom: 5%;
+}
+
+button{
+width: 224px;
+height: 54px;
+align-items: flex-start;
+padding: 1% 2%;
+margin: 5% 1%;
+border-radius: 45px;
+font-weight: bold;
+font-size: 1.2rem;
+color: rgb(255, 255, 255);
+border: 2px solid white;
+background-color: none;
+}
+
+.banner-image{
+  margin-bottom: 8.5%;
+}
+.banner-image img{
+    height: 125%;
+    margin-top: -4%;
+    
+}
+/* SHARE STYLE */
+.share-button{
+    color: rgb(255, 255, 255);
+    background: rgb(260, 100, 60);
+    border: none;
+}
+
+.kisu-bolar-nai-vai{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.button-picture{
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    width: 50%;
+    height: 12%;
+    border-radius: 9px;
+    justify-content: space-around;
+    background: transparent;
+    margin-top: -49%;
+    margin-left: -25%;
+}
+
+.mew-one{
+    color: white;
+    font-size: 2rem;
+    width: bold;
+    font-weight: 800;
+}
+
+.video-tutorial{
+    color:aliceblue;
+}
+.button-picture-two{
+    border: 2px solid green;
+    width: 48%;
+    height: 12%;
+    margin-top: -125%;
+    margin-left: 89%;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+}
