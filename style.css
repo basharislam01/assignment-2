@@ -13,12 +13,6 @@
 }
 
 
-/* nav and body style start here */
-/* .fast-part{
-    backgroundkh: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-} */
-
-
 header{
     width: 99.7%;
     height: 915px;
@@ -93,6 +87,9 @@ margin-bottom: 5%;
 margin-top: 7%;
 }
 
+.shape{
+    font-style:;
+}
 .banner-p{
 color: rgba(255, 255, 255, 0.5);
 font-size: 1.2rem;
@@ -112,7 +109,7 @@ font-weight: bold;
 font-size: 1.2rem;
 color: rgb(255, 255, 255);
 border: 2px solid white;
-background-color: none;
+background-color:transparent;
 }
 
 .banner-image{
@@ -169,4 +166,89 @@ background-color: none;
     text-align: center;
     border-radius: 10px;
     background: transparent;
+}
+
+ /* habits  style start here */
+
+ .habbit-box{
+    margin: 3% 10%;
+ }
+
+ .habit-titel{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+ }
+
+ .habbit-discription{
+    text-align: center;
+    margin: 2% 20%;
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+ .habit-item-boxs{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+ }
+
+ .habit-item-boxs div img{
+    border-radius: 50%;
+ }
+
+ .habit-item-boxs div h3{
+    margin-top: 7%;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+ }
+
+ .habit-item-boxs div p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5%;
+ }
+
+ /* run section style start here */
+ .run-box{
+    margin: 5% 10%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding: 3%;
+    height: 400px;
+    justify-content: space-evenly;
+ }
+
+ .run-box div img{
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    margin-left: 25%;
+ }
+
+ .about-run h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 4%;
+ }
+
+ .about-run p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 30%;
+    margin-bottom: 8%;
+ }
+
+ #join-now{
+    width: 224px;
+    height: 54px;
+    padding: 1.5% 7%;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    margin-bottom: 15%;
 }
